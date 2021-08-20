@@ -49,18 +49,17 @@ print('shape: ', x.shape)
 """
 
 
-"""
 # Create a identity matrix
 n = 4
 x = np.eye(n)
 print('x:\n', x)
 print('shape: ', x.shape)
+
+
 """
-
-
 # Create random values
 # np.random.seed(10)
 x = np.random.random(size=(2, 3))
 print('x:\n', x)
 print('shape: ', x.shape)
-
+"""
